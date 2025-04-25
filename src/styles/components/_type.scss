@@ -2,30 +2,30 @@ body {
   max-height: 100vh;
 background-color: black;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: black;
 // overflow-y: hidden;
   font-family: "the-seasons", sans-serif;
   font-family: "Press Start 2P", system-ui;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   overflow-y: hidden;
 }
 
 .title {
-  font-family: "Press Start 2P", system-ui;
+  font-family: "the-seasons", sans-serif;
   color: white;
-  font-weight: 500;
+width: 100%;
+text-align: center;
+  font-weight: 800;
   font-style: normal;
-  font-size: 24vw; 
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
+  font-size: 4.8vw; 
   position: absolute;
-  line-height: 0;
-  bottom: 20%;
+  line-height: 150%;
+  top: 80%;
   margin: 0;
-  left: 3.5%;
+
+ 
+
 }
  
