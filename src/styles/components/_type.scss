@@ -10,12 +10,16 @@ body {
 }
 
 .title {
-  font-family: "the-seasons", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   font-weight: 500;
   font-style: normal;
-  font-size: 10vw; 
+  font-size: 24vw; 
   text-align: center;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   position: absolute;
-  bottom: 0;
+  line-height: 0;
+  bottom: -9%;
+  left: 3.5%;
 }
