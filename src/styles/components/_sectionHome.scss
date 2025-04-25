@@ -82,3 +82,32 @@
       opacity: 0;
     } 
   }
+
+  .carre1{
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background-color: #ADDABD;
+}
+
+.carre2{
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    background-color:#77A686;
+}
+
+.carre3{
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    background-color:#01591D;
+}
+
+canvas {
+    position: fixed;
+      max-width: 100%;
+}
