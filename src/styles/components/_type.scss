@@ -3,18 +3,19 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: black;
-  font-family: "the-seasons", sans-serif;
+  
+  font-family: "Press Start 2P", system-ui;
   font-weight: 300;
   font-style: normal;
 }
 
 .title {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
+  font-family: "the-seasons", sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 7vw; 
+  font-size: 10vw; 
   text-align: center;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   position: absolute;
   bottom: 0;
 }
