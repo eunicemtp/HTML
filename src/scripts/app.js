@@ -128,8 +128,8 @@ class Particle {
 
  
 function follow(e) {
-	mousePos.x = e.pageX;
-	mousePos.y = e.pageY;
+	mousePos.x = e.clientX;
+	mousePos.y = e.clientY;
 }
  
  
