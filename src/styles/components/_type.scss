@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: black;
-overflow-y: hidden;
+// overflow-y: hidden;
   font-family: "the-seasons", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -20,6 +20,7 @@ overflow-y: hidden;
   text-transform: uppercase;
   position: absolute;
   line-height: 0;
-  bottom: -9%;
+  bottom: 20%;
+  margin: 0;
   left: 3.5%;
 }
