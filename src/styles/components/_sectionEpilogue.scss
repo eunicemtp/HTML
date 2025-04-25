@@ -1,0 +1,17 @@
+.section--epilogue{
+
+    background: url("../assets/images/ForetPaisible.jpeg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+    p, quote{
+        position: relative;
+        left: 50%;
+        width: 40% !important;
+    }
+
+    quote{
+        left: 40%;
+    }
+}
+

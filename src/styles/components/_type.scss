@@ -6,14 +6,18 @@ background-color: black;
   color: black;
 // overflow-y: hidden;
   font-family: "the-seasons", sans-serif;
-  font-family: "Press Start 2P", system-ui;
+  // font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
   overflow-y: hidden;
 }
+.title--h2 {
+  font-family: "Press Start 2P", system-ui;
 
+}
 .title {
-  font-family: "the-seasons", sans-serif;
+  // font-family: "the-seasons", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   color: white;
 width: 100%;
 text-align: center;

@@ -1,11 +1,19 @@
 
 .section--futur{
 
-    background: url(../assets/images/futur-fond-animated.svg);
+    background: url(../assets/images/futur-fond2.svg);
     // background-size: 50%;
-    background-size: 100vh;
+    background-size: 100vw;
     background-repeat: no-repeat;
 
+  
+
+}    
+.section p{
+        width: 80%;
+}
+.section *{
+    margin: 5%;
 }
 .scroll-container {
     display: flex;
