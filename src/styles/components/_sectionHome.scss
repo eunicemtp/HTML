@@ -10,6 +10,7 @@
     overflow:hidden;
 }
 .buttonplay {
+  display: inline-block;
     font-family: "Press Start 2P", system-ui;
     font-weight: 100;
     border-radius: 10px;
@@ -19,7 +20,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 48.8%;
+    top: 46 .8%;
     color: white;
     background-color: transparent;
     overflow: hidden;
