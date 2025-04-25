@@ -1,16 +1,18 @@
 body {
-
+  max-height: 100vh;
+background-color: black;
   font-size: 20px;
   line-height: 1.5;
   color: black;
-overflow-y: hidden;
-  font-family: "the-seasons", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   font-weight: 300;
   font-style: normal;
+  overflow-y: hidden;
 }
 
 .title {
   font-family: "Press Start 2P", system-ui;
+  color: white;
   font-weight: 500;
   font-style: normal;
   font-size: 24vw; 
@@ -23,3 +25,4 @@ overflow-y: hidden;
   bottom: -9%;
   left: 3.5%;
 }
+ 
