@@ -27,7 +27,7 @@ button.addEventListener('mouseenter', () => {
       pixel.classList.add('pixel', 'up');
       pixel.style.left = `${x * pixelSize}px`;
       pixel.style.top = `${y * pixelSize}px`;
-      pixel.style.animationDelay = `${Math.random() * 0.5}s`;
+      pixel.style.animationDelay = `${Math.random() * 0.4}s`;
       overlay.appendChild(pixel);
       pixelElements.push(pixel);
     }
@@ -38,14 +38,14 @@ button.addEventListener('mouseleave', () => {
   pixelElements.forEach(pixel => {
     pixel.classList.remove('up');
     pixel.classList.add('down');
-    pixel.style.animationDelay = `${Math.random() * 0.3}s`;
+    pixel.style.animationDelay = `${Math.random() * 0.4}s`;
   });
 
   // Nettoyage après animation
   setTimeout(() => {
     overlay.innerHTML = '';
     pixelElements = [];
-  }, 500);
+  }, 400);
 });
 
 
