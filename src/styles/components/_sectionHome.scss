@@ -10,77 +10,105 @@
     overflow:hidden;
 }
 .buttonplay {
+  cursor: pointer;
   display: inline-block;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 100;
-    border-radius: 10px;
-    padding: 40px 60px;
-    font-size: 30px;
-    border: 2mm ridge white;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 46 .8%;
-    color: white;
-    background-color: transparent;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-    transition: color 0.2s ease;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 100;
+  border-radius: 20px;
+  padding: 40px 60px;
+  font-size: 30px;
+  border: 2mm ridge white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 44%;
+  overflow: hidden;
+  color: white;
+  background-color: transparent;
+  z-index: 2;
+  transition: color 2s ease;
+}
+
+.buttonplay:hover .button-text {
+  color: #002b0e;
+  position: relative;
+  z-index: 4;
+}
+
+/* Pixel animation */
+.pixel {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.pixel.up {
+  animation: rise 50ms forwards;
+}
+
+.pixel.down {
+  animation: fall 50ms forwards;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  .buttonplay:hover .button-text {
-    color: #002b0e;
+  50% {
+    opacity: 40%;
   }
-  
-  .pixel-overlay {
-    position: absolute;
+  100% {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
+
+@keyframes fall{
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 40%;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
+  nav {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -2;
+    background-color: rgba(0, 0, 0, 0.677);
+    padding: 10px 0;
+    z-index: 10;
   }
   
-  .pixel {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    opacity: 0;
-    animation-fill-mode: forwards;
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  .pixel.up {
-    animation: rise 0.4s forwards;
+  nav li {
+    margin: 20px 46px;
   }
   
-  .pixel.down {
-    animation: fall 0.4s forwards;
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 14px;
   }
   
-  @keyframes rise {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      transform: translateY(0%);
-      opacity: 100%;
-    }
-  }
-  
-  @keyframes fall {
-    0% {
-      transform: translateY(0%);
-      opacity: 100%;
-    }
-    100% {
-      transform: translateY(100%);
-      opacity: 0;
-    } 
+  nav a:hover {
+    text-decoration: underline;
   }
